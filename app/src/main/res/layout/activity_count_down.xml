@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CountDownActivity">
+
+
+
+    <GridLayout
+        android:columnCount="2"
+        android:rowCount="1"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+
+
+        <TextView
+            android:id="@+id/workout_text"
+            android:lines="2"
+            android:gravity="center"
+            android:text="WORKOUT\n00"
+            android:textSize="50dp"
+            android:scaleType="centerCrop"
+            android:layout_columnWeight="0.5"
+            android:layout_rowWeight="0.5"
+            android:background="#d14e4e"
+            android:maxWidth="10dp"
+            />
+        <TextView
+            android:id="@+id/next_text"
+            android:lines="3"
+            android:gravity="center"
+            android:text="TYPE\n00"
+            android:textSize="50dp"
+            android:scaleType="centerCrop"
+            android:layout_columnWeight="0.5"
+            android:layout_rowWeight="0.5"
+            android:background="#dccece"
+            android:maxWidth="10dp"
+            />
+
+
+    </GridLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
